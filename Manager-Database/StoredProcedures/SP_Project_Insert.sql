@@ -6,6 +6,5 @@ AS
 BEGIN
 	SET NOCOUNT ON
 	INSERT INTO [Project]([Name],[Description],[EmployeeId])
-		OUTPUT [inserted].[ProjectId]
 		VALUES (@name, @description, @employeeId)
 END

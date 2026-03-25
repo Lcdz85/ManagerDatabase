@@ -1,0 +1,39 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Employee] (Table)
+       [dbo].[Post] (Table)
+       [dbo].[Project] (Table)
+       [dbo].[TakePart] (Table)
+       [dbo].[User] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Employee] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Post] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Post] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Project] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Project] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       [dbo].[FK_Post_Employee] (Foreign Key)
+       [dbo].[FK_Post_Project] (Foreign Key)
+       [dbo].[FK_Project_Employee] (Foreign Key)
+       [dbo].[FK_TakePart_Employee] (Foreign Key)
+       [dbo].[FK_TakePart_Project] (Foreign Key)
+       [dbo].[FK_User_Employee] (Foreign Key)
+       [dbo].[TR_EmployeeManager] (Trigger)
+       [dbo].[SF_SaltAndHash] (Function)
+       [dbo].[SP_Check_EMployee_IsInProject] (Procedure)
+       [dbo].[SP_Check_Employee_IsProjectManager] (Procedure)
+       [dbo].[SP_Get_FreeEmployees] (Procedure)
+       [dbo].[SP_Post_Insert] (Procedure)
+       [dbo].[SP_Project_Insert] (Procedure)
+       [dbo].[SP_User_Insert] (Procedure)
+
+** Supporting actions

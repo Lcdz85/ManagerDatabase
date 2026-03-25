@@ -6,7 +6,7 @@
 AS
 BEGIN
 	SET NOCOUNT ON
-	INSERT INTO [Post]([Content],[EmployeeId],[ProjectId])
+	INSERT INTO [Post]([Subject],[Content],[EmployeeId],[ProjectId])
 		OUTPUT [inserted].[PostId]
 		VALUES (@subject, @content, @employeeId, @projectId)
 END

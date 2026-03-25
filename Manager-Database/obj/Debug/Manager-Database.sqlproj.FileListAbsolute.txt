@@ -1,0 +1,10 @@
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\bin\Debug\Manager-Database.dacpac
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\bin\Debug\Manager_Database.dll
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\bin\Debug\Manager_Database.pdb
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\obj\Debug\Manager-Database.sqlproj.AssemblyReference.cache
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\obj\Debug\Manager_Database.dll
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\obj\Debug\Manager_Database.pdb
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\obj\Debug\Model.xml
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\obj\Debug\refactor.xml
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\obj\Debug\postdeploy.sql
+C:\Users\l.coudyzer\OneDrive - Interface3\Desktop\ProjetManager\Manager-Database\obj\Debug\predeploy.sql

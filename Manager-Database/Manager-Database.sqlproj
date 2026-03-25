@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{1ae648d1-3d12-4ffc-9e7b-4896f896fad9}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -76,5 +76,8 @@
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Manager-Database.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Manager-Database.publish.xml" />
   </ItemGroup>
 </Project>
