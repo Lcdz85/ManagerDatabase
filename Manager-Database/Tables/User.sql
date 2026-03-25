@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[User]
+(
+	[UserId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
+    [Email] VARCHAR(320) NOT NULL, 
+    [Password] VARBINARY(32) NOT NULL, 
+    [Salt] UNIQUEIDENTIFIER NOT NULL , 
+    [EmployeeId] UNIQUEIDENTIFIER NOT NULL, 
+    CONSTRAINT [FK_User_Employee] FOREIGN KEY ([EmployeeId]) REFERENCES [Employee]([EmployeeId])
+)
