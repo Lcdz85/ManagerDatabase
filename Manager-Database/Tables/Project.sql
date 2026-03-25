@@ -19,7 +19,7 @@ CREATE TRIGGER [dbo].[TR_EmployeeManager]
 
         IF EXISTS
         (
-            SELECT 1
+            SELECT *
             FROM inserted i
             INNER JOIN dbo.Employee e
                 ON e.EmployeeId = i.EmployeeId

@@ -9,3 +9,13 @@
     CONSTRAINT [FK_Post_Employee] FOREIGN KEY ([EmployeeId]) REFERENCES [Employee]([EmployeeId]), 
     CONSTRAINT [FK_Post_Project] FOREIGN KEY ([ProjectId]) REFERENCES [Project]([ProjectId])
 )
+
+GO
+
+CREATE TRIGGER [dbo].[TR_IsInProjetct]
+    ON [dbo].[Post]
+    AFTER INSERT, UPDATE
+    AS
+    BEGIN
+        SET NoCount ON
+    END
